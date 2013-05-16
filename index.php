@@ -57,6 +57,6 @@ for($counter = 2; $counter > 0; $counter++)
 		$prime_numbers[] = $counter;
 		echo $counter."\n";
 		flush();
-        ob_flush();
+        	ob_flush();
 	}
 }
